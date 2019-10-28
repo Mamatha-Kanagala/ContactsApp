@@ -11,10 +11,9 @@ using TechTalk.SpecFlow;
 namespace MKContactsApp.Hooks
 {
     [Binding]
-    public class TestInitialize
+    public class TestInitialize : Base
     {
-        public AndroidDriver<AndroidElement> AndroidContext;
-
+        
         // Intializing the Android driver 
         [BeforeScenario]
         public void IntializeTest()

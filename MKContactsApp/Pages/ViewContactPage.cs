@@ -36,7 +36,7 @@ namespace MKContactsApp.Pages
             {
                  if (lblMobile.GetAttribute("text").Equals("Mobile"))
                 {
-                    Console.WriteLine("attribut value is: Mobile");
+                    Console.WriteLine("Successfully opened the contact");
                 }
             }
             catch (Exception e)
